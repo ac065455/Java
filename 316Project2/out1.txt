@@ -1,0 +1,2 @@
+-1540 : Syntax Error, unexpected symbol where arith op or ) expected
+-1540 : Syntax Error, unexpected symbol where id expected

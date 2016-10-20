@@ -1,0 +1,9 @@
+
+header: 46 46 1 19
+#of pixel in the C.C: 491
+
+header: 46 46 1 18
+#of pixel in the C.C: 291
+
+header: 46 46 0 1
+#of pixel in the C.C: 490

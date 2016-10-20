@@ -1,0 +1,17 @@
+class Point
+{
+	x
+	y
+}
+
+class Line
+{
+	p1
+	p2
+}
+
+class Rectangle
+{
+	p1
+	p2
+}

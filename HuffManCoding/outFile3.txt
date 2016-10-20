@@ -1,0 +1,20 @@
+ListHead -->("dummy",0,
+a)-->(a,5,NULL)-->NULL
+ListHead -->("dummy",0,
+b)-->(b,3,a)-->(a,5,NULL)-->NULL
+ListHead -->("dummy",0,
+b)-->(b,3,a)-->(a,5,c)-->(c,12,NULL)-->NULL
+ListHead -->("dummy",0,
+b)-->(b,3,a)-->(a,5,d)-->(d,10,c)-->(c,12,NULL)-->NULL
+ListHead -->("dummy",0,
+b)-->(b,3,a)-->(a,5,d)-->(d,10,c)-->(c,12,e)-->(e,60,NULL)-->NULL
+ListHead -->("dummy",0,
+f)-->(f,3,b)-->(b,3,a)-->(a,5,d)-->(d,10,c)-->(c,12,e)-->(e,60,NULL)-->NULL
+ListHead -->("dummy",0,
+f)-->(f,3,b)-->(b,3,a)-->(a,5,g)-->(g,7,d)-->(d,10,c)-->(c,12,e)-->(e,60,NULL)-->NULL
+fb 6 g f b 
+afb 11 c a fb 
+gd 17 e g d 
+afbc 23 e afb c 
+gdafbc 40 e gd afbc 
+gdafbce 100  gdafbc e 
